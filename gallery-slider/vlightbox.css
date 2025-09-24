@@ -1,0 +1,37 @@
+#vlightbox {
+	width:100%;
+	height: auto;
+	margin-left:15px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: auto;
+}
+#vlightbox span { 
+	display:block;
+}
+#vlightbox a {
+	display:block;
+	float:left;
+	margin:10px ;
+	padding:5px;
+	border:solid 1px #b8b8b8;
+	background-color:#e4081063;
+	opacity:0.87; 
+}
+#vlightbox a img{
+	display:block;
+	border:none;
+	margin:0px; 
+}
+#vlightbox a:hover{
+	opacity:1; 
+}
+#vlightbox a.vlightbox_hidden{ 
+	display:none;
+}
+#vlightbox a img {    
+	border: medium none;
+    margin: 0 auto;
+    width: 210px;
+    height: 210px; 
+}
