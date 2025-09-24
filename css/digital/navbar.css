@@ -1,0 +1,115 @@
+.nav-menu ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize !important;
+    color: #fff;
+    display: block;
+    padding: 8px 12px 8px !important;
+    position: relative;
+    font-family: "Quantico", sans-serif;
+}
+.nav-menu {
+	float: left;
+}
+
+.nav-menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+	position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 15rem;
+    padding: -0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+.dropdown ul li a{
+	padding:5px ;
+}
+.nav-menu ul li:last-child {
+	margin-right: 0;
+}
+
+.nav-menu ul li:hover .dropdown-menu {
+	top: 32px;
+	opacity: 1;
+	visibility: visible;
+	display:block;
+}
+
+.nav-menu ul li:hover>a:after {
+	opacity: 1;
+}
+
+.nav-menu ul li.active a:after {
+	opacity: 1;
+}
+
+.nav-menu ul li a {
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #111111;
+	display: block;
+	padding: 32px 8px 30px;
+	position: relative;
+	font-family: "Quantico", sans-serif;
+}
+
+.nav-menu ul li a:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 100%;
+	background: #009603;
+	content: "";
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.nav-menu ul li .dropdown {
+	position: absolute;
+	left: 0;
+	top: 105px;
+	background: #111111;
+	width: 180px;
+	z-index: 99;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.nav-menu ul li .dropdown li {
+	display: block;
+	margin-right: 0;
+}
+
+.nav-menu ul li .dropdown li a {
+	color: #ffffff;
+	padding: 5px 18px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.nav-menu ul li .dropdown li a:after {
+	display: none;
+}
